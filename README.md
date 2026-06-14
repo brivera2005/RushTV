@@ -51,7 +51,7 @@ Output: `dist\RushTV.exe`
 ## Clone and build (for friends)
 
 ```bat
-git clone https://github.com/<your-user>/RushTV.git
+git clone https://github.com/brivera2005/RushTV.git
 cd RushTV
 python -m venv .venv
 .venv\Scripts\activate
@@ -63,14 +63,14 @@ Share the built `dist\RushTV.exe` or have friends run `python main.py` after clo
 
 ## Project layout
 
-- `main.py` — entry point
-- `rushtv/app.py` — CustomTkinter UI
-- `rushtv/xtream.py` — Xtream Codes API
-- `rushtv/m3u_parser.py` — M3U fetch/parse
-- `rushtv/player.py` — VLC wrapper
-- `rushtv/storage.py` — local settings in `%APPDATA%\RushTV`
-- `build.bat`, `RushTV.spec` — PyInstaller one-file build
+- `main.py` â€” entry point
+- `rushtv/app.py` â€” CustomTkinter UI
+- `rushtv/xtream.py` â€” Xtream Codes API
+- `rushtv/m3u_parser.py` â€” M3U fetch/parse
+- `rushtv/player.py` â€” VLC wrapper
+- `rushtv/storage.py` â€” local settings in `%APPDATA%\RushTV`
+- `build.bat`, `RushTV.spec` â€” PyInstaller one-file build
 
 ## License
 
-Use and modify for personal IPTV playback. You are responsible for complying with your provider''s terms and local laws.
+Use and modify for personal IPTV playback. You are responsible for complying with your provider's terms and local laws.
