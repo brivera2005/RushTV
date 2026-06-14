@@ -8,7 +8,7 @@ from urllib.parse import urlparse
 
 import requests
 
-REQUEST_TIMEOUT = 20
+REQUEST_TIMEOUT = 12
 
 
 @dataclass

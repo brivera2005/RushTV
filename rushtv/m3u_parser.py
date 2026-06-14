@@ -11,7 +11,7 @@ import requests
 
 from rushtv.xtream import Channel, XtreamError
 
-REQUEST_TIMEOUT = 30
+REQUEST_TIMEOUT = 15
 M3U_MARKERS = ("#EXTM3U", "#EXTINF")
 
 
