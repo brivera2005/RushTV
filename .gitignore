@@ -1,0 +1,31 @@
+# Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# PyInstaller
+build/
+dist/
+*.spec.bak
+
+# Secrets and local config
+.env
+.env.*
+config.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# User AppData copies (credentials live in %APPDATA%\RushTV only)
+AppData/
